@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Valoinfo</string>
+    <string name="agentName">Agent Name</string>
+    <string name="agentTitle">Agent</string>
+    <string name="tierlistTitle">Tierlist</string>
+    <string name="tierlistInfo">Tierlist Info</string>
+    <string name="agentInfo">Agent Info</string>
+    <string name="saveButton">Save</string>
+    <string name="placeholder">Enter Name</string>
+    <string name="newButton">New</string>
+    <string name="agentImage">Image</string>
+    <string name="select_five_elements">Please, add 5 agents</string>
+    <string name="fill_data">Fill in the data</string>
+</resources>

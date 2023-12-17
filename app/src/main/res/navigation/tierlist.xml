@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/tierlist"
+    app:startDestination="@id/tierlistFragment">
+
+    <fragment
+        android:id="@+id/tierlistFragment"
+        android:name="com.example.valoinfo.ui.tierlist.TierlistFragment"
+        android:label="TierlistFragment" >
+        <action
+            android:id="@+id/action_tierlistFragment_to_detailTierlistFragment"
+            app:destination="@id/detailTierlistFragment" />
+        <action
+            android:id="@+id/action_tierlistFragment_to_allTierFragment"
+            app:destination="@id/allTierFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailTierlistFragment"
+        android:name="com.example.valoinfo.ui.DetailTierlist.DetailTierlistFragment"
+        android:label="DetailTierlistFragment" />
+    <fragment
+        android:id="@+id/allTierFragment"
+        android:name="com.example.valoinfo.ui.allTier.AllTierFragment"
+        android:label="AllTierFragment" >
+        <argument
+            android:name="id"
+            app:argType="long" />
+    </fragment>
+</navigation>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/agent"
+    app:startDestination="@id/agentFragment">
+    <fragment
+        android:id="@+id/agentFragment"
+        android:name="com.example.valoinfo.ui.agent.AgentFragment"
+        android:label="AgentFragment">
+        <action
+            android:id="@+id/action_agentFragment_to_skillFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.example.valoinfo.ui.detail.DetailFragment"
+        android:label="DetailFragment" >
+        <argument
+            android:name="uuid"
+            app:argType="string" />
+    </fragment>
+</navigation>

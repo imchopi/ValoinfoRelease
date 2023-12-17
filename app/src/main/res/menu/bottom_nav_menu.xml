@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/agent"
+        android:title="@string/agentTitle"
+        android:icon="@drawable/valorantblack" />
+
+    <item
+        android:id="@+id/tierlist"
+        android:title="@string/tierlistTitle"
+        android:icon="@drawable/duelist" />
+</menu>
